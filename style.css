@@ -1,4 +1,4 @@
-/* Estilo do container principal */
+
 .container {
     display: flex;
     justify-content: center;
@@ -7,45 +7,79 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    box-sizing: border-box;
-    border: 1px solid black;
 }
 
-/* Estilo da seção principal */
+.main img {
+    width: 100%; 
+  }
+
 .main {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
 }
 
-/* Alinhamento dos títulos */
 .title h1,
 .title h3 {
     text-align: left;
     margin: 0;
 }
 
-/* Estilo das imagens */
 .main img {
     width: 100%;
-    max-width: 600px;
     align-self: center;
-    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
-/* Lista de itens */
+
 .main ul {
     list-style-type: square;
     margin-left: 20px;
 }
 
-/* Footer fixado */
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: #f4f4f4;
-    width: 100%;
-    position: fixed;
+    width: 100%; 
     bottom: 0;
+    
+} 
+
+h3{
+    color: red;
 }
+
+.title {
+    margin: 30px;
+}
+
+p {
+    margin-bottom: 0; 
+    font-size: 16px;
+    font-style: regular;
+  }
+  
+  .divider {
+    width: 100%;
+    height: 1px;
+    margin: 36px 0;
+    background-color: #d9d9d9;
+    margin-bottom: 0px;
+  }
+  
+  footer p + p {
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+
+  h1 {
+    font-size: 36px;
+    margin: 36px;
+    font-style: bold;
+  }
+  
+  h3 {
+    font-size: 20px;
+    font-style: bold;
+  }
+
+  
