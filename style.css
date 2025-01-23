@@ -1,0 +1,51 @@
+/* Estilo do container principal */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+/* Estilo da seção principal */
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Alinhamento dos títulos */
+.title h1,
+.title h3 {
+    text-align: left;
+    margin: 0;
+}
+
+/* Estilo das imagens */
+.main img {
+    width: 100%;
+    max-width: 600px;
+    align-self: center;
+    margin: 0 auto;
+}
+
+/* Lista de itens */
+.main ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+/* Footer fixado */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f4f4f4;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
